@@ -1,0 +1,179 @@
+<!DOCTYPE html> 
+<html lanh = "pt-BR">
+
+<head> </head>
+<!-- esta tag serve para dizer quais tipo de caracteres vamos utilizar no site (utf-8)-->
+<meta charset="utf-8"/>
+<meta nome="viewport" content="width=device-width, intial- scal=1"/>
+
+<title> quem sou eu </title>
+<p> uma pagina simple para me apresentar ao mundo </p>
+</head>
+ 
+<body>
+
+<head>
+    <!--as tags h são para  titulo e eles definem a impotancia , onde h1 é o mais importante e o meno ipontante-->
+<h1> Quem sou Eu</h1>
+<h2> titulo  com h2</h2>
+<h3> titulo  com h3</h3>
+<h4> titulo  com h4</h4>
+<h5> titulo  com h5</h5>
+ <h6> titulo  com h6</h6>
+</head>
+ <main>
+    
+<section>
+    <h2> Sobre mim </h2>
+ <img src="https://img.freepik.com/fotos-gratis/arte-digital-de-ninja-futurista_23-2151234836.jpg" 
+ alt="Mulher sorrindo em abmbiente corpoarativo" width="250">
+
+    <p>
+        Ola Eu sou  <strong> Uelton</strong> e adora aprender sobre tecnogia. <br/> Acredito que progamar é uma forma de contar 
+        historia e resolver problemas do mundo real. <br/> neste pagina, voce vai conhecer uma pouco mais mim.
+    </p>
+
+</section>
+
+<section>
+<h2> Interesses </h2>
+<p>
+    Alguma coisas que me fazem brilha os olhos:</p>
+
+    <ul>
+    <li>progração</li>
+    <li>Arduino</li>
+    <li>Fluxograma</li>
+    <li>projetos reais</li>
+   <li>projotes de baixo custo usando outomação</li>
+
+    </ul>
+
+</section>
+
+</section>
+<h2> Objetivos </h2>
+<p> Metas para os proxímos meses </p>
+<li>Aprender a desenvolver sites usando HTML, CSS e JS</li>
+<li>Aprender automação usando ESP32 </li>
+<li>Aprender redes com cabeamentos estruturados </li>
+<section>
+    
+           <section>
+            <h2>Contatos</h2>
+            <p>Preencha o formulário para falar comigo:</p>
+<!-- A tag <form> cria um formulário que pode ser usado para coletar informações do usuário.
+O atributo "action" define para onde os dados serão enviados, como ainda não temos isso definido deixamos como "#".
+O atributo "method" define como os dados serão enviados, o "post" é o mais comum e significa que esses dados vão ser salvos em algum local. -->
+            <form action="#">
+<!-- A tag <label> serve para descrever o campo, ou seja, criar uma legenda
+o atributo "for" deve ser sempre ter o mesmo valor que o "id" docampo que ela descreve
+isso faz com que a acessibilidade do fique melhor, porque ao clicar em texto,
+o campo de digitalção é selecionado -->
+            <label for="nome">Nome:</label>
+            <br/>
+            <input type="text" name="nome" id="nome">
+            <br/><br/>
+<!-- A tag <input> cria um campo de entrada, uma caixa para o usuário digitar algo.
+O type serve para indicar qual o tipo de valor que o campo vai receber.
+O name é o nome da informação que vai ser enviada no formulário.
+O id é o identificador ÚNICO usado para vincular o campo com o <label>. -->
+            <label for="email">E-mail:</label><br/>
+            <input type="email" name="email" id="email" required> 
+            <br/><br/>
+ 
+            <label for="mensagem">Mensagem:</label>
+            <br/>
+            <input type="text" name="mensagem" id="mensagem">
+            <br/><br/>
+<!-- A tag <button> cria um botão clicavel. O atributo type indica o tipo de botão
+nesse caso o submit indica que o botão vai enviar o formulário -->
+            <button type="submit">Enviar mensagem</button>
+            </form>
+        </section>
+
+        <section>
+
+            <!-- A tag <Talbe> cria uma tabema para organizar dados  em linha e colunas.
+             o tributo borde é usando apenas para ostra as bordas de forma siples-->
+
+        <table border="1">
+            <!-- A tag <caption> define o titulo ou legenda da tabela 
+             Ela aparece log acima e serve para descrever o conteudo da tabela. -->
+                
+
+          <caption>Minhas Habilidades</caption>
+
+          <!--A tag (table head) agrupa as linhas que formam o cabeçalho da tabela 
+          Dentro dele usamos <tr> (tabela row) para criar uma linha e <th> ( table header) para derfinir as celulas do cabeçalho--> 
+            
+          <thead>
+            <tr>
+              <th>Linguagem</th>
+              <th>Principais conteúdos</th>
+              <th>Nível de dificuldade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>
+                Estrutura de páginas, tags, links, listas,
+                formulários e tabelas
+              </td>
+
+              <!-- windons ponto . -->
+              <td> facil ⭐🚟</td>
+            </tr>
+
+            <td> CSS</td>
+            <td>
+                cores, fontes, layouts, responsividade e animação simples
+            </td>
+            <td>
+                medio ⭐⭐
+            </td>
+        </tr>
+        <tr> 
+            <td> javaScrip</td>
+
+        </tr>
+
+         variaveis, funções, ventos, condicionais e manipula do dom
+    </tr>
+    <tr>
+         <td>c++</td>
+         <td> variaveis, Estrutura, de controle e funçoes</td>
+         <td dificil ⭐⭐⭐ </td>
+    </tr>
+
+       </tbody>
+        </table>
+
+      </section>
+       
+</section> 
+<h2> redes social</h2>
+<p>  intagram : <a href="uelton@silva"</a> </p>
+
+    <h2> redes social</h2>
+<p>  linkedin:<a href="uelton@silva"</a ></p>
+
+    <h2> redes social</h2>
+<p>  Github: <a href="uelton@silva"</a> </p>
+
+</section>
+
+</main>
+
+<!--rodapé-->
+
+ <footer> Site desenvolvido pela turma de IoT01 </footer>
+
+
+
+</body>
+
+</html>
+
+ 
