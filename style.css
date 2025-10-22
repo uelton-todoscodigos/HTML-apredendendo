@@ -1,0 +1,120 @@
+/*   ===================================================================================================================================
+o css (cascadis style sheets) serve pra definir o estilo visual do html.
+ele trabalha com trs partes principais
+- seletor o que sera estilado ex body, h1 classe, 3ID
+-PROPIEDADE O QUE SERA ALETRADO EX COLOR, FONT-SIZE 
+valor o novo estilo exblue 20px
+==========================================================================================================================================
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bhaiksuki&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+o seletoc body representa o corpo da pagina.
+As propridade definem a aparencial do site */
+
+/*
+ o 
+*/
+  
+*{
+     margin: 0;
+     padding: 0;
+}
+
+body{ 
+     font-family: "Roboto", sans-serif;
+     background-color: #0a192f;
+
+     color: #e2e8f0;
+
+     line-height:1.6 ;
+
+     ::selection{
+
+        background-color: #00e5ff;
+        color: #000;
+     }
+
+     /*==============================================================================================================
+                    Titulos
+     ================================================================================================================
+
+     /*
+
+     selection de tegs h1 h2 h3 estilizam os titulos
+
+     */
+}
+ /*=================================================================================================
+ Tituloss texto e link
+ ====================================================================================================
+
+ */
+
+h1 {
+
+    margin-bottom: 10px ;
+
+    line-height: 1.25;
+
+    font-size: 2.4rem;
+
+    color: #00e5ff;
+
+    text-shadow: 0 0 10px #00e5ff;
+}
+
+h2{
+
+    margin-bottom: 10px;
+    line-height: 1.25;
+    font-size: 1.8rem;
+    color: #8b5cf6;
+}
+
+P{
+
+    margin-bottom: 14px;
+    color:#94a3b8 ;
+}
+
+a {
+color: #00e5ff;
+/*
+decoraçao do meu texto --> o nome tira sublinha
+*/
+text-decoration: none;
+
+transition:  color 0.2s;
+
+
+}
+
+ /* o estilo hover e acionado quando o usario o nome */ 
+
+a:hover{
+ color: #02adf0;
+
+}
+
+header{
+
+    background-color: linear-gradient( 90deg, #111827 0%, #1e1b4b 100%);
+
+    padding:  40px 20px;
+
+    text-align:  center;
+
+    box-shadow: 0 4px 20px rgb(0, 0, 0.4);
+
+    /*box-sizing: 0 4px 20px rgb ; */
+}
+ 
+nav{
+
+    background-color: #f172af;
+
+    border-top:  1px solid #1e293b;
+
+    border-bottom: 1px solid #1e293b;
+}
